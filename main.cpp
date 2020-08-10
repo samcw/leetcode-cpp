@@ -1,13 +1,14 @@
 #include <iostream>
-#include "53-maxSubArray.h"
+#include "96-numTrees.h"
 #include <vector>
 
 using namespace std;
 
 int main() {
-    vector<int> test{-2,1,-3,4,-1,2,1,-5,4};
+//    vector<int> test{1,2,3,1};
     Solution solution;
-    int res = solution.maxSubArray(test);
-    cout << res << endl;
+//    int res = solution.rob(test);
+//    cout << res << endl;
+    solution.numTrees(3);
     return 0;
 }
