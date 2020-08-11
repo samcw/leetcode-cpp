@@ -1,14 +1,12 @@
 #include <iostream>
-#include "96-numTrees.h"
+#include "647-countSubstrings.h"
 #include <vector>
 
 using namespace std;
 
 int main() {
-//    vector<int> test{1,2,3,1};
+    string s = "aascxdcdc";
     Solution solution;
-//    int res = solution.rob(test);
-//    cout << res << endl;
-    solution.numTrees(3);
+    solution.countSubstrings(s);
     return 0;
 }
