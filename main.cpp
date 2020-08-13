@@ -1,12 +1,11 @@
 #include <iostream>
-#include "647-countSubstrings.h"
+#include "279-numSquares.h"
 #include <vector>
 
 using namespace std;
 
 int main() {
-    string s = "aascxdcdc";
     Solution solution;
-    solution.countSubstrings(s);
+    cout << solution.numSquares(12) << endl;
     return 0;
 }
